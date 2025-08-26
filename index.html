@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akanksha's Portfolio Website</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      nav {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(75, 121, 221);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 32px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(4, 4, 78);
+        font-size: 1.2rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-between;
+        margin: 24px 0px;
+        padding: 34px;
+        align-items: center;
+      }
+      .leftsection {
+        text-align: left;
+        width: 40%;
+        font-size: 40px;
+        font-weight: 100;
+        padding-left: 30px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .rightsection {
+        text-align: right;
+        margin: 20px;
+        width: 40%;
+      }
+      .left {
+        font-size: 1.5rem;
+        color: black;
+      }
+      .cut {
+        color: rgb(185, 25, 105);
+      }
+      #element {
+        color: rgb(185, 25, 105);
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(0, 0, 0);
+        height: 2px;
+        margin: 40px 100px;
+        box-shadow: 0px 0px 15px 3px grey;
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: 20px;
+        height: 85vh;
+      }
+      .grey {
+        color: gray;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .box {
+        margin: 0 100px;
+        background-color: black;
+        height: 2px;
+        margin-top: 40px;
+        position: relative;
+        width: 72vw;
+      }
+
+      .v1,
+      .v2,
+      .v3,
+      .v4 {
+        position: absolute;
+        background-color: black;
+        width: 3px;
+        height: 100px;
+        top: 0;
+      }
+
+      .v1 {
+        left: 10%;
+      }
+      .v2 {
+        left: 35%;
+      }
+      .v3 {
+        left: 60%;
+      }
+      .v4 {
+        left: 85%;
+      }
+      .img {
+        width: 28px;
+        position: relative;
+        top: -30px;
+        right: 13px;
+      }
+      .title {
+        position: relative;
+        top: 65px;
+        width: 100px;
+        right: 30px;
+      }
+      .desc {
+        justify-content: center;
+        position: relative;
+        top: 80px;
+        width: 150px;
+        font-size: 12px;
+        right: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: 0px 0px 10px 3px grey;
+        border-radius: 3px;
+      }
+      .foot{
+        height: 200px;
+        background-color: rgb(94, 94, 94)
+      
+      
+          }
+          .foot{
+            display: flex;
+            padding: 40px 48px;
+            justify-content: space-evenly;
+            color: white;
+
+          }
+          .port{
+            margin-left: 0px;
+            font-size: 10px;
+            
+          }
+          .p1, .p2, .p3,  ul li{
+            list-style: none;
+          }
+          .reserve {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  background-color: rgb(94, 94, 94); /* same as .foot */
+  color: white;
+  margin-top: -20px;
+}
+
+    </style>
+  </head>
+  <body bgcolor="pink">
+    <header>
+      <nav>
+        <div class="left">Akanksha's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
+            <li><a href="/">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi I'm <span class="cut">Akanksha k.</span> <br />Nice to meet you
+          <br />
+          And I am a
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="bgg.jpeg" alt="" width="400px" height="430px" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="grey"> What I have done so far</span>
+        <h1>Work Experiences</h1>
+        <div class="box">
+          <div class="v1">
+            <div class="imgtop"><img class="img" src="dev.png" /></div>
+            <div class="title">
+              <h5>Html Developer <br />(2014-2020)</h5>
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              neque unde vitae quae, nemo necessitatibus eligendi sunt harum?
+              Voluptatum, repellat.
+            </div>
+          </div>
+          <div class="v2">
+            <div class="imgtop"><img class="img" src="dev.png" /></div>
+            <div class="title">
+              <h5>Php Developer<br />(2017-2023)</h5>
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              neque unde vitae quae, nemo necessitatibus eligendi sunt harum?
+              Voluptatum, repellat.
+            </div>
+          </div>
+          <div class="v3">
+            <div class="imgtop"><img class="img" src="dev.png" /></div>
+            <div class="title">
+              <h5>Java Developer<br />(2018-2020)</h5>
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              neque unde vitae quae, nemo necessitatibus eligendi sunt harum?
+              Voluptatum, repellat.
+            </div>
+          </div>
+          <div class="v4">
+            <div class="imgtop"><img class="img" src="dev.png" /></div>
+            <div class="title">
+              <h5>Python Developer<br />(2020-2025)</h5>
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              neque unde vitae quae, nemo necessitatibus eligendi sunt harum?
+              Voluptatum, repellat.
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="foot">
+          <div class="port"><h1> Akanksha's Portfolio</h1></div>
+          <div class="p1"> <li>Home</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact me</li>
+            <li>About</li></ul></div>
+          <div class="p2"> <li>Resume</li>
+            <li>Testimonials</li>
+            <li>Blogs</li>
+            <li>Gallery</li>
+            <li>Achievements</li></div>
+          <div class="p3"> <li>Skills</li>
+            <li>Certifications</li>
+            <li>Work Experience</li>
+            <li>Internships</li>
+            <li>Technologies</li></div>
+           
+        </div>
+         <div class="reserve">Copyright &#169; www.akankshaportfolio.com | All Rights Reserved</div>
+        
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Web Developer</i>", "Video Editor", " Graphic Designer"],
+        typeSpeed: 50,
+        backSpeed: 30, // ⏪ Speed to erase the text
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
