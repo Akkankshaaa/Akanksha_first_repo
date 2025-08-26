@@ -1,0 +1,1 @@
+My name is Akanksha Kumari. I hail from Assam . I am currently pursuing Diploma in computer science and Engineering from Lovely Professional University . I am a final year student and I aim for higher studies ahead. Here is my first repository uploaded. Hope you would like it     
